@@ -1,15 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   name: 10,11|美国2|@ripaojiedian
   network: ws
   port: '2086'
   server: 104.26.0.56
   servername: ''
   skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
@@ -17,25 +18,27 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   name: 10|🇺🇸 美国3|@ripaojiedian
   port: 14802
   server: 38.76.151.235
   skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: dccf6c2c-1daa-4000-bc2d-2c716c77bb1c
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   name: 10,11|美国4|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: 592d0884-c322-43a0-abbd-f3e421e420f5
   ws-opts:
     headers:
@@ -43,15 +46,17 @@ proxies:
     path: /video/RPKZwKFW
 - alterId: 64
   cipher: auto
+  client-fingerprint: chrome
   name: 10|🇺🇸 美国5|@ripaojiedian
   port: 58831
   server: 120.232.153.27
   skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 10,11|美国6|@ripaojiedian
+- client-fingerprint: chrome
+  name: 10,11|美国6|@ripaojiedian
   network: tcp
   password: c471ef32-798d-40a0-a57c-acf3475a204e
   port: 13019
@@ -59,7 +64,6 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 11|美国3|@ripaojiedian
@@ -81,7 +85,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: 12|US_speednode_0442
+  name: 12|US_speednode_0488
   network: ws
   password: 95b
   port: 443
@@ -95,7 +99,7 @@ proxies:
       Host: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org
     path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
 - client-fingerprint: chrome
-  name: 12|US_speednode_0443
+  name: 12|US_speednode_0491
   network: ws
   password: 95b
   port: 10511
