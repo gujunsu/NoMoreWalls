@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|新加坡|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 139.162.33.70
+  servername: 139.162.33.70
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: 139.162.33.70
+    path: /BqVwBioP
+- client-fingerprint: chrome
+  name: 10,11|新加坡5|@ripaojiedian
+  network: tcp
+  password: 1a8050cd-50d8-4b7d-a73e-193222f39822
+  port: 42881
+  server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
