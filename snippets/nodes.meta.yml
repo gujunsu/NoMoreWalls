@@ -1,16 +1,6 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-1
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)ca5bef9:175503
-    mode: tls
-  port: 2377
-  server: 18.176.215.63
-  type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-2
+  name: 0|-https://t.me/MrXbin-4
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -21,43 +11,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-62
-  network: ws
-  port: 30005
-  server: shs2.12123.org
-  servername: shs2.12123.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 86256542-64cd-42dd-8501-250a084f2142
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /12123.org
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-68
-  network: ws
-  port: 443
-  server: sgcft01.xqc.best
-  servername: d21rddomp7gdx6.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0112665c-8eea-44f0-adba-53250d54aa2d
-  ws-opts:
-    headers:
-      Host: d21rddomp7gdx6.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-75
+  name: 0|-https://t.me/MrXbin-57
   network: ws
   port: 30000
   server: shsz.12123.org
@@ -66,7 +20,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 45388e4b-aaaf-4fd8-86ea-752e798d1fb6
+  uuid: df5393c2-9895-43c4-81a7-0b55a59a7f5e
   ws-opts:
     headers:
       Host: www.baidu.com
@@ -75,25 +29,25 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-71
+  name: 0|-https://t.me/MrXbin-63
   network: ws
-  port: 443
-  server: jpcft01.xqc.best
-  servername: d263c0bqn07wlj.cloudfront.net
+  port: 30005
+  server: shs2.12123.org
+  servername: shs2.12123.org
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: e49232e3-415e-45c5-a52a-e0b36cacbdc8
+  uuid: 5568f900-29ff-4d17-a6ca-dc21dca4cf05
   ws-opts:
     headers:
-      Host: d263c0bqn07wlj.cloudfront.net
-    path: /stream
+      Host: www.baidu.com
+    path: /12123.org
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-70
+  name: 0|-https://t.me/MrXbin-53
   network: ws
   port: 443
   server: hkcft01.xqc.best
@@ -106,6 +60,24 @@ proxies:
   ws-opts:
     headers:
       Host: daqchd3a0qfpy.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-69
+  network: ws
+  port: 443
+  server: jpcft01.xqc.best
+  servername: d263c0bqn07wlj.cloudfront.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 74e4d295-70b6-485b-b41a-81c41b9b1bbc
+  ws-opts:
+    headers:
+      Host: d263c0bqn07wlj.cloudfront.net
     path: /stream
 - alterId: 0
   cipher: auto
