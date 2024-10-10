@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 10,11|日本|@ripaojiedian
+  network: tcp
+  password: 325ba822-760d-4a51-9711-f72ba8d16933
+  port: 27001
+  server: aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
