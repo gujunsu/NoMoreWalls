@@ -1,46 +1,21 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-7
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.164
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-1
+  password: qwerREWQ@@
+  port: 54345
+  server: 221.139.79.57
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-2
-  password: 3MgIhqwp4pjM8SKwixNkYZ
-  port: 33068
-  server: 193.124.22.253
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-8
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.178
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-4
   password: 2fwufOmJ9ELfN4umzcHBfV
   port: 12224
   server: 194.87.82.28
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-6
+  name: 0|-https://t.me/MrXbin-3
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.154
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-9
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: beesyar.org
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-10
-  password: qwerREWQ@@
-  port: 54345
-  server: 221.139.79.57
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-16
@@ -50,14 +25,22 @@ proxies:
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-20
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 138.186.142.4
-  type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-25
+  network: ws
+  port: 443
+  server: 188.114.96.3
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: '3,4,5|d*********g.com_0 #2'
@@ -174,6 +157,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 10,11|台湾|@ripaojiedian
+  network: tcp
+  password: e44b6ab7-c0c1-470a-86bc-bc6ccd5bab52
+  port: 18147
+  server: svip.88de.hongxingdl.vip
+  skip-cert-verify: false
+  sni: mm2.redapricotcloud.com
+  type: trojan
 - name: 10,11|日本|@ripaojiedian
   network: tcp
   password: QwwHvrnN
@@ -191,16 +182,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵 日本3|@ripaojiedian
-  port: 11304
-  server: 45.159.50.143
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d1625892-8e9f-41fa-8ad8-6cc464fd52a6
 - name: 10,11|韩国|@ripaojiedian
   network: tcp
   password: QwwHvrnN
@@ -234,6 +215,16 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 美国3|@ripaojiedian
+  port: 38692
+  server: 38.147.165.185
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
 - alterId: 64
   cipher: auto
   name: 11|香港3|@ripaojiedian
@@ -274,16 +265,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|日本3|@ripaojiedian
-  network: tcp
-  port: '11304'
-  server: 45.159.50.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d1625892-8e9f-41fa-8ad8-6cc464fd52a6
 - alterId: 64
   cipher: auto
   name: 11|美国|@ripaojiedian
@@ -294,6 +275,51 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|美国3|@ripaojiedian
+  network: tcp
+  port: '38692'
+  server: 38.147.165.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
+- name: 12|CN_speednode_0008
+  password: QwwHvrnN
+  port: 36900
+  server: 36.151.192.198
+  skip-cert-verify: true
+  sni: 36.151.192.198
+  type: trojan
+- name: 12|JP_speednode_0023
+  password: b21dc611-652c-3081-bd10-b239f2ae25e4
+  port: 443
+  server: 18.179.44.127
+  skip-cert-verify: true
+  sni: steampipe-kr.akamaized.net
+  type: trojan
+  udp: true
+- name: 12|JP_speednode_0024
+  password: b21dc611-652c-3081-bd10-b239f2ae25e4
+  port: 443
+  server: 35.75.8.137
+  skip-cert-verify: true
+  sni: steampipe-partner.akamaized.net
+  type: trojan
+  udp: true
+- name: 12|US_speednode_0102
+  network: ws
+  password: dns68
+  port: 443
+  server: 104.21.92.73
+  skip-cert-verify: true
+  sni: trojan.putata.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.putata.us.kg
+    path: /
 - alterId: 0
   cipher: auto
   name: '13|d*********g.com_2 #3'
