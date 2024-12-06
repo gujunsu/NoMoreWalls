@@ -1,44 +1,30 @@
 proxies:
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-1
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 193.108.119.230
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-3
-  password: amazonskr05
-  port: 443
-  server: 18.236.89.178
-  type: ss
 - cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-4
+  name: 0|-https://t.me/MrXbin-1
   password: dongtaiwang.com
   port: 32233
   server: 185.22.152.125
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-6
+  name: 0|-https://t.me/MrXbin-2
   password: amazonskr05
   port: 443
-  server: 44.244.25.243
+  server: 18.236.89.178
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-7
+  name: 0|-https://t.me/MrXbin-4
   password: amazonskr05
   port: 443
-  server: 34.222.145.191
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-8
-  password: 171pEaFf5HJtdAAI3L7r6A
-  port: 1080
-  server: 46.32.186.234
+  server: 52.195.205.31
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-15
+  name: 0|-https://t.me/MrXbin-5
+  password: amazonskr05
+  port: 443
+  server: 34.208.196.91
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-17
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -49,7 +35,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-43
+  name: 0|-https://t.me/MrXbin-37
   network: ws
   port: 2082
   server: 190.93.245.174
@@ -58,22 +44,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-45
-  network: ws
-  port: 2095
-  server: 172.64.166.8
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip12.6016725.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -157,20 +127,20 @@ proxies:
 - name: 10,11|香港2|@ripaojiedian
   network: tcp
   password: QwwHvrnN
-  port: 25241
-  server: 36.151.192.196
+  port: 18682
+  server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
 - alterId: 64
   cipher: auto
   name: 10|🇭🇰 香港3|@ripaojiedian
-  port: 40972
-  server: 120.232.153.63
+  port: 32193
+  server: 120.198.71.214
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 10|🇭🇰 香港5|@ripaojiedian
@@ -194,10 +164,22 @@ proxies:
 - name: 10,11|日本|@ripaojiedian
   network: tcp
   password: QwwHvrnN
-  port: 6985
-  server: 36.151.192.242
+  port: 12176
+  server: 36.151.192.239
   skip-cert-verify: true
   type: trojan
+- name: 10|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 16800
+  server: 152.70.101.24
+  skip-cert-verify: false
+  sni: tr.koiok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koiok.us.kg
+    path: /?ed=2560
 - name: 10,11|美国|@ripaojiedian
   network: tcp
   password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
@@ -228,12 +210,12 @@ proxies:
   cipher: auto
   name: 11|香港3|@ripaojiedian
   network: tcp
-  port: '40972'
-  server: 120.232.153.63
+  port: '32193'
+  server: 120.198.71.214
   servername: ''
   tls: false
   type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11|香港5|@ripaojiedian
@@ -254,6 +236,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 11|日本2|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 16800
+  server: 152.70.101.24
+  sni: tr.koiok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koiok.us.kg
+    path: '%2F%3Fed%3D2560'
 - alterId: 64
   cipher: auto
   name: 11|美国2|@ripaojiedian
