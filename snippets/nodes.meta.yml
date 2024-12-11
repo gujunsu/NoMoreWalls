@@ -3,20 +3,21 @@ proxies:
   name: 0|-https://t.me/MrXbin-1
   password: amazonskr05
   port: 443
-  server: 43.206.233.92
+  server: 54.200.220.184
   type: ss
-- cipher: aes-128-gcm
+- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-2
-  password: shadowsocks
+  password: amazonskr05
   port: 443
-  server: 149.34.244.82
+  server: 34.216.74.178
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-3
-  password: 5cp9Z3iWnJZ2
+  password: amazonskr05
   port: 443
-  server: 205.134.180.150
+  server: 18.141.184.102
   type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-4
   password: amazonskr05
@@ -27,43 +28,48 @@ proxies:
   name: 0|-https://t.me/MrXbin-5
   password: amazonskr05
   port: 443
-  server: 18.141.184.102
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-6
-  password: amazonskr05
-  port: 443
-  server: 54.200.220.184
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-7
-  password: amazonskr05
-  port: 443
   server: 54.169.5.182
   type: ss
   udp: true
 - cipher: aes-128-cfb
-  name: 0|-https://t.me/MrXbin-18
+  name: 0|-https://t.me/MrXbin-15
   obfs: http_post
   password: $$Turb0VPN$$
   port: 443
   protocol: auth_aes128_md5
   server: ssca.irundns.net
   type: ssr
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-20
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13226
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-19
+  name: 0|-https://t.me/MrXbin-21
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-23
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13498
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-24
+  name: 0|-https://t.me/MrXbin-33
   network: ws
   port: 2082
   server: 190.93.245.174
@@ -77,31 +83,20 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-25
-  network: ws
-  port: 2082
-  server: 190.93.245.80
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-26
+  name: 0|-https://t.me/MrXbin-36
   network: ws
   port: 443
-  server: irvideo.cfd
+  server: 15.235.83.227
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: irvideo.cfd
-    path: /linkws
+      Host: mankadmu.com
+    path: /linkvws
 - name: 10|tg频道:@ripaojiedian
   port: 4000
   server: hk9.ftq.ink
@@ -121,16 +116,6 @@ proxies:
   server: 36.151.192.203
   skip-cert-verify: true
   type: trojan
-- alterId: 64
-  cipher: auto
-  name: 10|🇭🇰 香港3|@ripaojiedian
-  port: 50052
-  server: 183.236.48.158
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 10|🇭🇰 香港5|@ripaojiedian
@@ -192,30 +177,6 @@ proxies:
   server: 36.151.192.198
   skip-cert-verify: true
   type: trojan
-- alterId: 64
-  cipher: auto
-  name: 10,11|韩国|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 107.167.30.126
-  servername: www.83645422.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
-  ws-opts:
-    headers:
-      Host: www.83645422.xyz
-    path: /path/240811062813
-- name: 10,11|新加坡|@ripaojiedian
-  network: tcp
-  password: 7cd29891-fe78-4f8f-8844-abb31b9d9a75
-  port: 55357
-  server: 0862.4a11.a51c.hongxingdl.vip
-  skip-cert-verify: false
-  sni: mmbiz1.redapricotcloud.com
-  type: trojan
 - name: 10,11|美国|@ripaojiedian
   network: tcp
   password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
@@ -224,6 +185,22 @@ proxies:
   skip-cert-verify: false
   sni: usla.mjt000.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 10,11|美国2|@ripaojiedian
+  network: ws
+  port: '10001'
+  server: us.569520.xyz
+  servername: us.569520.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: cc6fc498-1c98-4ecd-b3a4-37d782c56d24
+  ws-opts:
+    headers:
+      Host: us.569520.xyz
+    path: /cctv13/4k.m3u8
 - name: 10,11|越南|@ripaojiedian
   network: tcp
   password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
@@ -232,16 +209,6 @@ proxies:
   skip-cert-verify: false
   sni: vn.mjt000.com
   type: trojan
-- alterId: 64
-  cipher: auto
-  name: 11|香港3|@ripaojiedian
-  network: tcp
-  port: '50052'
-  server: 183.236.48.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11|香港5|@ripaojiedian
