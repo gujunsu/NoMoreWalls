@@ -9,7 +9,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 4f357993-53e3-33d8-8ed7-0c58f87f7fa3
+  uuid: fa98714c-1d2b-3b60-81e0-f7151110e801
 - client-fingerprint: chrome
   name: 10,11,12|CN_speednode_0016
   network: tcp
@@ -28,7 +28,7 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 4f357993-53e3-33d8-8ed7-0c58f87f7fa3
+  uuid: fa98714c-1d2b-3b60-81e0-f7151110e801
 - client-fingerprint: randomized
   name: 12|JP_speednode_0030
   network: ws
