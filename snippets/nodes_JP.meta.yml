@@ -1,10 +1,25 @@
 proxies:
-- name: 0|🇯🇵1 |  5.9MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
+- auth: __mPDL8oqKjx2v2VpdSfG0g4
+  client-fingerprint: chrome
+  name: 0|🇯🇵1 |  1.9MB/s
+  password: __mPDL8oqKjx2v2VpdSfG0g4
   port: 443
-  server: jpgmo101-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jpgmo101-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  server: starlink-tko.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- cipher: aes-256-cfb
+  country: 🇯🇵JP
+  delay: 508
+  name: 0|🇯🇵2 |  9.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.112.232.193
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵3 |  5.8MB/s
+  password: b73cfaeb-387d-480c-95e0-20f1c3fac2c3
+  port: 18862
+  server: tw-02.baiducdn.icu
+  type: ss
+  udp: true
