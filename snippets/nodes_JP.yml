@@ -1,16 +1,10 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🇯🇵JP
-  delay: 508
-  name: 0|🇯🇵2 |  9.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.112.232.193
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵3 |  5.8MB/s
-  password: b73cfaeb-387d-480c-95e0-20f1c3fac2c3
-  port: 18862
-  server: tw-02.baiducdn.icu
-  type: ss
+- name: 0|🇯🇵1 |  1.4MB/s
+  password: 7d78b611-d26a-3828-ac5a-5f5ed29efeda
+  port: 20300
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z300.hongkongnode.top
+  tfo: true
+  type: trojan
   udp: true
