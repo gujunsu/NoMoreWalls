@@ -1,177 +1,254 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|🇺🇸2 |  7.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.160.134.223
+- cipher: chacha20-ietf
+  name: 0|🌏1 |  1.0MB/s
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 0|🌀1- |  2.6MB/s
-  network: ws
-  port: 23612
-  server: 12.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2f5ec89d-a5bd-3195-aaf4-300f5c18374f
-  ws-opts:
-    headers:
-      Host: 12.mamamajd.site
-    path: /
-- cipher: aes-256-cfb
-  name: 0|🇺🇸3 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 44.243.110.63
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇯🇵1 |  1.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.202.60.105
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇯🇵2 |  4.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.181.176.166
-  type: ss
-- name: 0|🇯🇵4 |  8.7MB/s
+- name: 0,10|🇯🇵 日本|@ripaojiedian
   password: '3782591447421952000'
   port: 443
-  server: sunny-macaque.treefrog761.one
-  skip-cert-verify: true
-  sni: sunny-macaque.treefrog761.one
+  server: inspired-dinosaur.adder289.quest
+  skip-cert-verify: false
+  sni: inspired-dinosaur.adder289.quest
   type: trojan
-- cipher: aes-256-cfb
-  name: 0|🇯🇵5 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.206.216.94
-  type: ss
-- name: 0|🇯🇵6 |  2.3MB/s
+- name: 0|🇸🇬1 |  6.3MB/s
   password: 2cb2b2de-0d4e-33d0-8bfc-277785bc6fd9
-  port: 20059
+  port: 17806
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x59.flybar.work
+  sni: x65.flybar.work
   type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: 0|🌀3- |  1.7MB/s
-  password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3
-  port: 50008
-  server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 0|🌀4- |  6.1MB/s
-  network: ws
-  port: 23611
-  server: 11.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2f5ec89d-a5bd-3195-aaf4-300f5c18374f
-  ws-opts:
-    headers:
-      Host: 11.mamamajd.site
-    path: /
 - cipher: aes-256-cfb
-  name: 0|🇺🇸8 |  5.6MB/s
+  name: 0|🇺🇸3 |  2.8MB/s
   password: amazonskr05
   port: 443
-  server: 54.244.78.72
+  server: 44.243.45.146
   type: ss
-- name: 0|🇺🇸10 |  1.4MB/s
+- cipher: rc4-md5
+  name: 0|🇮🇷1 |  1.3MB/s
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4602
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- name: 0|🇺🇸5 |  1.8MB/s
   password: 2cb2b2de-0d4e-33d0-8bfc-277785bc6fd9
-  port: 22741
+  port: 28678
   server: gy.58n.net
   skip-cert-verify: true
-  sni: dufu.hongkongnode.top
+  sni: z143.hongkongnode.top
   type: trojan
   udp: true
-- name: 10,11|香港4|@ripaojiedian
-  network: tcp
-  password: 43e5eeacbad3032bfe4c25a2f011b6b7
+- cipher: aes-256-cfb
+  name: 0|🇺🇸7 |  5.2MB/s
+  password: amazonskr05
   port: 443
-  server: 104.251.227.182
+  server: 35.89.131.134
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸8 |  1.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.195.215.236
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  ip-version: dual
+  name: 0|🇳🇱1 |  2.7MB/s
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 45.158.171.146
+  type: ss
+  udp: true
+- name: 0|🇯🇵2 |  9.3MB/s
+  password: '3782591447421952000'
+  port: 443
+  server: coherent-drum.adder289.quest
   skip-cert-verify: true
-  sni: hezijiasuqi.com
+  sni: coherent-drum.adder289.quest
   type: trojan
+- name: 0|🇯🇵3 |  2.3MB/s
+  password: 2cb2b2de-0d4e-33d0-8bfc-277785bc6fd9
+  port: 41767
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x114.flybar.work
+  type: trojan
+  udp: true
+- name: 0|🇯🇵4 |  1.9MB/s
+  password: 2cb2b2de-0d4e-33d0-8bfc-277785bc6fd9
+  port: 20139
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z139.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸13 |  1.1MB/s
+  password: 2cb2b2de-0d4e-33d0-8bfc-277785bc6fd9
+  port: 20296
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z296.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: rc4-md5
+  name: 10|🇭🇰 香港|@ripaojiedian
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40206
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 10|🇯🇵 日本|@ripaojiedian
-  port: 20855
-  server: 45.159.51.116
+  name: 10|🇭🇰 香港2|@ripaojiedian
+  port: 37349
+  server: 38.147.188.81
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: bb59ce12-afda-4a2e-bb62-6f5b60acbe77
-- name: 10|🇰🇷 韩国|@ripaojiedian
-  password: '68711066374000300'
-  port: 443
-  server: star-anchovy.shiner427.skin
+  uuid: f5d9c282-cee4-479b-98d6-deecd4f70482
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 香港4|@ripaojiedian
+  port: 22666
+  server: 103.30.76.129
   skip-cert-verify: false
-  sni: star-anchovy.shiner427.skin
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aede82af-c2ca-425d-9423-c68490ab2277
+- name: 10,11|台湾|@ripaojiedian
+  network: tcp
+  password: 65f14831-5c67-483f-9e85-f3aa73f21187
+  port: 13035
+  server: naiu-other.05vr9nyqg5.download
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
+- cipher: rc4-md5
+  name: 10|🇯🇵 日本2|@ripaojiedian
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40218
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
 - name: 10|🇰🇷 韩国2|@ripaojiedian
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 14.37.56.164
-  skip-cert-verify: false
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 10|🇸🇬 新加坡5|@ripaojiedian
-  password: '68711066374000300'
+  password: '3782591447421952000'
   port: 443
-  server: patient-emu.shiner427.skin
+  server: sincere-stud.adder289.quest
   skip-cert-verify: false
-  sni: patient-emu.shiner427.skin
+  sni: sincere-stud.adder289.quest
+  type: trojan
+- name: 10,11|韩国3|@ripaojiedian
+  network: tcp
+  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+  port: 51075
+  server: lm.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz10.redapricotcloud.com
+  type: trojan
+- name: 10,11|新加坡|@ripaojiedian
+  network: tcp
+  password: 65f14831-5c67-483f-9e85-f3aa73f21187
+  port: 13027
+  server: naiu-sg.05vr9nyqg5.download
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- name: 10,11|美国|@ripaojiedian
+  network: tcp
+  password: 65f14831-5c67-483f-9e85-f3aa73f21187
+  port: 13019
+  server: naiu-us.05vr9nyqg5.download
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 11|日本|@ripaojiedian
+  name: 10|🇺🇸 美国3|@ripaojiedian
+  port: 31909
+  server: 23.224.152.62
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+- cipher: rc4-md5
+  name: 11|6aaZ5rivfEByaXBhb2ppZWRpYW4
+  obfs: plain
+  obfs-param: Y2QyYjY5MjkwMi42NjAyYjg0NjM0NjQxMDg1MDYubWljcm9zb2Z0LmNvbQ
+  password: ENZ52K
+  port: '40206'
+  protocol: auth_aes128_md5
+  protocol-param: OTI5MDI6cEZXR09R
+  server: 2.hublink.pro
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 11|香港2|@ripaojiedian
   network: tcp
-  port: '20855'
-  server: 45.159.51.116
+  port: '37349'
+  server: 38.147.188.81
   servername: ''
   tls: false
   type: vmess
-  uuid: bb59ce12-afda-4a2e-bb62-6f5b60acbe77
-- name: 11|韩国|@ripaojiedian
+  uuid: f5d9c282-cee4-479b-98d6-deecd4f70482
+- alterId: 0
+  cipher: auto
+  name: 11|香港4|@ripaojiedian
   network: tcp
-  password: '68711066374000300'
+  port: '22666'
+  server: 103.30.76.129
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aede82af-c2ca-425d-9423-c68490ab2277
+- name: 11|日本|@ripaojiedian
+  network: tcp
+  password: '3782591447421952000'
   port: 443
-  server: star-anchovy.shiner427.skin
+  server: inspired-dinosaur.adder289.quest
   type: trojan
+- cipher: rc4-md5
+  name: 11|5pel5pysMnxAcmlwYW9qaWVkaWFu
+  obfs: plain
+  obfs-param: Y2QyYjY5MjkwMi42NjAyYjg0NjM0NjQxMDg1MDYubWljcm9zb2Z0LmNvbQ
+  password: ENZ52K
+  port: '40218'
+  protocol: auth_aes128_md5
+  protocol-param: OTI5MDI6cEZXR09R
+  server: 2.hublink.pro
+  type: ssr
 - name: 11|韩国2|@ripaojiedian
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 14.37.56.164
-  skip-cert-verify: true
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: '%2F%3Fed%3D2560'
-- name: 11|新加坡5|@ripaojiedian
   network: tcp
-  password: '68711066374000300'
+  password: '3782591447421952000'
   port: 443
-  server: patient-emu.shiner427.skin
+  server: sincere-stud.adder289.quest
+  skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 11|美国3|@ripaojiedian
+  network: tcp
+  port: '31909'
+  server: 23.224.152.62
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
 - name: 12|DE_speednode_0030
   password: '65086441068973800'
   port: 443
