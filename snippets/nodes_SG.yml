@@ -1,14 +1,9 @@
 proxies:
-- name: 12|SG_speednode_0058
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: false
-  sni: hsdgbuys.pages.dev
-  type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬1 |  1.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.111.3
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: hsdgbuys.pages.dev
-    path: /
