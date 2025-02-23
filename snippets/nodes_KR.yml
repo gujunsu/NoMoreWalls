@@ -1,8 +1,21 @@
 proxies:
-- name: 0|🇰🇷1 |  3.1MB/s
+- name: 12|KR_speednode_0111
   password: '!!str 3782591447421952000'
   port: 443
-  server: amusing-jaybird.treefrog761.one
+  server: equipped-mouse.treefrog761.one
   skip-cert-verify: true
-  sni: amusing-jaybird.treefrog761.one
   type: trojan
+  udp: true
+- name: 12|KR_speednode_0112
+  network: ws
+  password: Aimer
+  port: 37722
+  server: 59.2.75.64
+  skip-cert-verify: true
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepy.ambercc.filegear-sg.me
+    path: /?ed=2560

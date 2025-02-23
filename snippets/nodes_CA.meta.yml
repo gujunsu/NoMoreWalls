@@ -1,10 +1,21 @@
 proxies:
-- auth: 830a6085-9aeb-449b-bfd2-1924eb972941
-  client-fingerprint: chrome
-  name: 0|🇨🇦1 |  2.7MB/s
-  password: 830a6085-9aeb-449b-bfd2-1924eb972941
-  port: 5001
-  server: do-us.aikunapp.com
-  skip-cert-verify: true
-  sni: d1--cn-gotcha204-4.bilivideo.com
-  type: hysteria2
+- cipher: aes-128-gcm
+  name: 0|🇨🇦1 |  5.2MB/s
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.82
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|CA_speednode_0004
+  port: 42557
+  reality-opts:
+    public-key: 9pG_yCinyMylCDQVtADAZELH1vlb5PGz_MZw8dmYZxY
+    short-id: 3139a260
+  server: 40.233.88.228
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
