@@ -1,5 +1,5 @@
 proxies:
-- name: 12|SG_speednode_0210
+- name: 12|SG_speednode_0162
   network: ws
   password: wb6368
   port: 2087
@@ -12,7 +12,7 @@ proxies:
     headers:
       Host: hsdgbuys.pages.dev
     path: /
-- name: 12|SG_speednode_0214
+- name: 12|SG_speednode_0168
   network: ws
   password: Aimer
   port: 2087
