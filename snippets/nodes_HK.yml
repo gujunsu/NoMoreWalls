@@ -19,6 +19,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港8|@ripaojiedian
+  password: 777bc05be0dd624959fb
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45905
+  server: console.03.aliyun.aq.kunlunaqs.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11|香港3|@ripaojiedian
