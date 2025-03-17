@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇷🇺4 |  6.0MB/s
+  network: ws
+  port: 23016
+  server: 185.22.152.236
+  tls: false
+  type: vmess
+  uuid: 7df02652-cb5a-44c1-a86c-9bf0bee9d92e
+  ws-opts:
+    headers: {}
+    path: /
