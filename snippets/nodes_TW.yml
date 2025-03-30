@@ -1,10 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 10,11|台湾|@ripaojiedian
-  network: tcp
-  password: 5120e15f-6a00-41f0-be5e-1032f4bba4fc
-  port: 42765
-  server: wb.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
-  type: trojan
+proxies: []
