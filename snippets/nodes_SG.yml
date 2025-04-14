@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬5 |  6.3MB/s
+  port: 3683
+  server: 183.240.179.191
+  tls: false
+  type: vmess
+  uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
+- name: 0|🇸🇬8 |  5.6MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 38340
+  server: gysz0000.dynu.net
+  skip-cert-verify: true
+  sni: hk39.work.gd
+  type: trojan
