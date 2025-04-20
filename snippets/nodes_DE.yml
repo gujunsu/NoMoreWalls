@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇩🇪4 |  4.2MB/s
+  name: 0|🇩🇪2 |  4.9MB/s
   network: tcp
   port: 8877
   raw:
