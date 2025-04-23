@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- name: 12|CN_speednode_0020
+  password: fe966b1a-3db5-442b-b64d-06650137f489
+  port: 43498
+  server: sla.cn.964e995b760.gogodns.xin
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- name: 12|CN_speednode_0033
+  password: fffddde3-e433-47a0-87b7-a21f3ab4a9dc
+  port: 27002
+  server: sla.cn.964e995b760.gogodns.xin
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
