@@ -13,6 +13,14 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0,10|🇰🇷 韩国|@ripaojiedian
+  password: qwerREWQ@@
+  port: 15098
+  server: 125.141.31.72
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 0,12|AT_speednode_0003
   network: ws
@@ -28,3 +36,11 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国2|@ripaojiedian
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  tfo: false
+  type: ss
