@@ -19,4 +19,4 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiMTF86aaZ5rivNnxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICIz
 vless://cdc453bb-34c8-4405-a322-56f6878ccd40@198.186.131.216:47387?allowInsecure=0#12%7CUS_speednode_0018
 ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
 https://V6yman.mcsslk.xyz/62d67fd87a081adf063035d99a80a7f6
-https://Q4Meuy.absslk.xyz/491ce66617e1d5eea3cbc70e818cf172
+https://HTYqfs.absslk.xyz/0ad569f3527f733754b0e79a1283da1a
